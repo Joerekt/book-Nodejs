@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Juwanto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .bio {
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+        <h1>Juwanto</h1>
+        <h2>Web Developer</h2>
+        <p class="bio">Saya adalah seorang pengembang web dengan pengalaman dalam HTML, CSS, dan JavaScript. Saya menikmati membuat situs web yang responsif dan user-friendly.</p>
+        <div class="info">
+            <p><strong>Email:</strong> juwanto@example.com</p>
+            <p><strong>Telepon:</strong> +62 812 3456 7890</p>
+            <p><strong>Alamat:</strong> Jl. Merdeka No. 123, Jakarta</p>
+        </div>
+    </div>
+</body>
+</html>
